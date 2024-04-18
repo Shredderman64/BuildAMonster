@@ -108,5 +108,4 @@ class Monster extends Phaser.Scene {
             }
         }
     }
-
 }
