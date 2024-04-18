@@ -99,12 +99,12 @@ class Monster extends Phaser.Scene {
         // Polling input: movement
         if (this.leftKey.isDown) {
             for (const sprite in my.sprite) {
-                sprite.x -= 2;
+                my.sprite[sprite].x -= 2;
             }
         }
         if (this.rightKey.isDown) {
             for (const sprite in my.sprite) {
-                sprite.x += 2;
+                my.sprite[sprite].x += 2;
             }
         }
     }
